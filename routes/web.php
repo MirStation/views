@@ -26,3 +26,7 @@ Route::get('/cursos/{index}','CursosController@show');
 Route::get('/produtos', 'ProdutosController@index');
 
 Route::get('/produtos/{index}','ProdutosController@show');
+
+Route::get('/livros', 'LivrosController@index');
+
+Route::get('/livros/{index}','LivrosController@show');
