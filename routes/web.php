@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Rota para a página Olá
+
+Route::get('/ola', 'OlaController@ola');
