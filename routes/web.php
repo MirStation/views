@@ -23,7 +23,6 @@ Route::get('/cursos', 'CursosController@index');
 
 Route::get('/cursos/{index}','CursosController@show');
 
-
 Route::get('/produtos', 'ProdutosController@index');
 
 Route::get('/produtos/{index}','ProdutosController@show');
